@@ -1,6 +1,5 @@
 api_version: 1
 database:
   version: 10.6
-build_step: true
 object_cache:
   version: 6.2
