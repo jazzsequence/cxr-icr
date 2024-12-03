@@ -1,0 +1,33 @@
+{
+    "name": "jazzsequence/cxr-icr",
+    "description": "BYOVCS WordPress test site",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Reynolds",
+            "email": "chris.reynolds@pantheon.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/all-in-one-seo-pack": "^4.7",
+        "wpackagist-plugin/akismet": "^5.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
