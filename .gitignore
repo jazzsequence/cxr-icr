@@ -11,10 +11,11 @@ wp-content/backupwordpress-*/
 wp-content/managewp/backups/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
-wp-content/plugins/akismet/
-wp-content/plugins/all-in-one-seo-pack/
 sitemap.xml
 sitemap.xml.gz
+
+# Ignore composer files. use composer locally
+composer.*
 
 # @TODO writable paths
 wp-content/cache/
